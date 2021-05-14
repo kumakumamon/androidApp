@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
             reference.child("aaa").addValueEventListener(listener);
             reference.child("bbb").addValueEventListener(listener);
             reference.child("ccc").addValueEventListener(listener);
-            reference.child("ddd").addValueEventListener(listener);
         }
 
         ValueEventListener listener = new ValueEventListener() {
